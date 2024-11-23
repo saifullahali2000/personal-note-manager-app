@@ -1,8 +1,32 @@
-# React + Vite
+# Personal Notes Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple web application that allows users to create, manage, and search their personal notes. Built using the MERN stack (MongoDB, Express, React, Node.js) with SQLite as the database.
 
-Currently, two official plugins are available:
+## Features
+- **Create Notes**: Add a new note with a title, description, and category.
+- **Read Notes**: View all notes, sorted by the latest creation date.
+- **Update Notes**: Edit existing notes.
+- **Delete Notes**: Delete notes that are no longer needed.
+- **Search & Filter**: Filter notes by category or search by title.
+- **Responsive Design**: The app is fully responsive and works on both desktop and mobile devices.
+- **Error Handling**: Proper validation to ensure that every note has a title and description.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **Frontend**: React, TailwindCSS
+- **Backend**: Node.js, Express
+- **Database**: SQLite
+
+## Setup & Installation
+
+### Prerequisites
+Before you start, make sure you have the following installed:
+- Node.js (v14 or higher)
+- npm or yarn
+- SQLite (optional, but required for database setup)
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/yourusername/personal-notes-manager.git
+
+
+
